@@ -67,6 +67,9 @@
             .coppyright {
                 text-align: center;
             }
+            .sticky {
+                display: none;
+            }
         }
         /*Mobile*/
         
@@ -95,10 +98,10 @@
                 display: block;
             }
             .padding-top {
-                top: 650px;
+                top: 670px;
             }
             .padding-top-on-moblie {
-                top: 590px;
+                top: 670px;
             }
             .blog__on-mobile {
                 display: block;
@@ -108,11 +111,8 @@
             }
             .blog-images-info {
                 position: relative;
-                height: 1242.88px;
+                height: 1340px;
                 width: 100%;
-            }
-            .sticky {
-                display: none;
             }
         }
         /*Tablet*/

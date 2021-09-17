@@ -38,7 +38,7 @@
     }
     
     .header__tablet-menu {
-        width: 300px;
+        width: 100%;
         background-color: #f3a46b;
         height: auto;
         position: fixed;
@@ -69,9 +69,13 @@
     .tablet__menu-list {
         padding-left: 0;
         list-style: none;
-        max-height: 100vh;
+        height: 100vh;
+        flex-direction: column;
         overflow-y: auto;
+        -webkit-box-align: start;
         padding: 40px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
     }
     
     .tablet__menu-item {
@@ -330,7 +334,7 @@
     /*Container*/
     
     .container {
-        margin: 60px -15px 0 -15px;
+        margin-top: 60px;
     }
     
     .tour__content {}
@@ -784,7 +788,7 @@
     /*Blog*/
     
     .blog {
-        margin: 60px -15px 70px -15px;
+        margin: 60px 0 70px 0;
     }
     
     .blog__label {
