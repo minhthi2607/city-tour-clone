@@ -51,7 +51,7 @@
     
     .header-close {
         position: absolute;
-        right: 0;
+        right: 20px;
         top: 0;
         border-radius: 50%;
         color: var(--white-color);
